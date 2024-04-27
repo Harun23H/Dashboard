@@ -299,12 +299,20 @@
 }
 
 .mobile {
+  border-left: 7px solid #a9dbfd;
   box-shadow: 2px 2px 7px #0000003b;
   border-radius: 8px;
   padding: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.mobile:nth-child(3) {
+  border-left: 7px solid purple;
+}
+.mobile:nth-child(2) {
+  border-left: 7px solid orangered;
 }
 
 .line1 {
@@ -345,6 +353,10 @@
   justify-content: center;
   border-radius: 8px;
   background-color: #0000000d;
+}
+
+.stC01:last-child{
+  border: dashed;
 }
 
 .stC01 > span {
@@ -443,19 +455,58 @@
   opacity: 0.5;
 }
 
-.time {
+.time,
+.time2,
+.time3,
+.time4,
+.time5,
+.time6,
+.time7 {
   display: flex;
   gap: 7px;
   padding-bottom: 10px;
 }
 
-.time > p {
+.time > p,
+.time2 > p,
+.time3 > p,
+.time4 > p,
+.time5 > p,
+.time6 > p,
+.time7 > p {
   font-size: 0.8em;
 }
 
-.time > small {
+.time > small,
+.time2 > small,
+.time3 > small,
+.time4 > small,
+.time5 > small,
+.time6 > small,
+.time7 > small {
   font-weight: 900;
+}
+
+.time > small{
   color: #a9dbfd;
+}
+.time2 > small{
+color: orangered;
+}
+.time3 > small{
+color: #06065c;
+}
+.time4 > small{
+  color: orangered;
+}
+.time5 > small{
+  color: #a9dbfd;
+}
+.time6 > small{
+  color: #a9dbfd;
+}
+.time7 > small{
+  color: orangered;
 }
 
 .ptoject {
